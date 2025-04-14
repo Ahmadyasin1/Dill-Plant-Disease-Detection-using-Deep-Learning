@@ -54,21 +54,6 @@ All models were trained, validated, and tested on the same image dataset for per
 
 ---
 
-## 🖼️ Screenshots & Visuals
-
-> *(Add real screenshots or model training graphs here)*
-
-### 📈 Training vs Validation Accuracy
-![Training Accuracy](screenshots/training_accuracy.png)
-
-### 🧪 Confusion Matrix Example
-![Confusion Matrix](screenshots/confusion_matrix.png)
-
-### 📉 Loss Curve (ResNet50)
-![Loss Graph](screenshots/loss_curve.png)
-
----
-
 ## 🛠️ Tech Stack
 
 - **Language**: Python
