@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dill Plant Classifier</title>
+    <!-- Add favicon link tag -->
+    <link rel="icon" type="image/png" href="/static/favicon.png">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dill Plant Classifier</h1>
+        <form id="upload-form" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="file-upload">Upload Image:</label>
+                <input type="file" id="file-upload" name="file" accept="image/*" required>
+            </div>
+            <button type="submit">Predict</button>
+        </form>
+        <div id="result">Prediction will appear here.</div>
+    </div>
+    <footer>
+        This task was created by Ahmad Yasin, a student at the University of Central Punjab.
+    </footer>
+    <script src="/static/script.js"></script>
+</body>
+</html>

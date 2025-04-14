@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Classifier - Result</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        /* Additional CSS styles for improved readability */
+        #result {
+            margin-top: 24px;
+        }
+
+        #result h2 {
+            font-size: 22px;
+            color: #333;
+        }
+
+        #result p {
+            font-size: 22px;
+            color: #666;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Plant Disease Classifier - Result</h1>
+        <div id="result">
+            <h2>Prediction:</h2>
+            <p>{{ prediction }}</p>
+        </div>
+        <div>
+            <a href="/">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
